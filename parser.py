@@ -21,7 +21,7 @@ class parser():
         print(self.elements)
         if len(self.elements) == len(self.threadelements):
             return self.elements
-        else:
+        else: 
             raise ValueError('Unable to properly parse page. This is because forum layout has likely been changed. Please notify the developer so this package can be updated accourdingly')
         
     def parse(self,forum):
