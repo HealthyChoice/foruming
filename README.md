@@ -1,13 +1,14 @@
 # foruming
 A general purpose module for botting on the roblox forums
 
-# OW TO INSTALL
+# HOW TO INSTALL
 
 You are probably too dumb or techincally illiterate to know how to properly install python packages, so will do this just like we do in 'special school*
 
 before you install you will need the following:
 
 the python interpreter: if you didnt realize you'd need this by now then leave this page now
+
 setuptools: special tool for installing packages. if you installed pip along with the pytho interpreter like you should've, 'pip install setuptools' should get them for you. if you have problems with this, google it, because setuptools and pip are separate from my package and will have widespread support among the python community
 
 Follow these steps to install once you have the other tools installed
