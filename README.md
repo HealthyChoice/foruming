@@ -1,10 +1,14 @@
-# foruming
+# Foruming
 A general purpose module for botting on the roblox forums. It will handle all the valildation tokens and html parser that makes botting all the more tedious
 
 Specifically, you can do the following: 
+
 -Create an account session by only supplying a username and password
+
 -Create posts by only supplying the subject, body, and forum id
+
 -Get lists of all the threads on the forum, with access to title, url, author, etc
+
 -Get lists of all the posts in a threa, along with the author, text, etc
 
 All of this seems simple enough but is in fact incredibly tedious to write functions for over and over again. This package will save me and you a great deal of time
@@ -27,7 +31,7 @@ setuptools: special tool for installing packages. if you installed pip along wit
 
 Follow these steps to install once you have the other tools installed
 
-1. downlaod tpythhe package: The simplest way to do this is click 'Download as ZIP'
+1. download the package: The simplest way to do this is click 'Download as ZIP'
 2. extract it: the package will be in a compressed format by default, so it must be extracted. simply use 7zip or winrar to extract the zip file to an accessible spot on your computer, like your desktop
 3. run the setup file: Open a terminal/command prompt in the directory you extracted and run this command: "python3 setup.py install". You shold probably run CMD if you're on windows, or put 'sudo' in front of the aforementioned command if you use linux. If you use mac install a proper operating system
 4. realize you've accomplished absolutely nothing in your life and likely never will: This step may take longer to complete than the others
