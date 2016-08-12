@@ -7,8 +7,8 @@ import foruming
 acc = foruming.account('USERNAME','PASSWORD')
 par = foruming.parser()
 
-keyword = 'test'
-response = 'response'
+keyword = 'KEYWORD'
+response = 'RESPONSE'
 
 while True:
     threads = par.parse(18)
@@ -16,5 +16,5 @@ while True:
         posts = thread.getposts()
         for post in posts:
             if keyword in post.gettext():
-                reply('response',thread.geturl())
+                reply(response,thread.geturl())
                 time.sleep(30)
