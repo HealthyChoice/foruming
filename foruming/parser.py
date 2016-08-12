@@ -41,20 +41,14 @@ class parser():
 
         self.threads = []
         for t in range(0,len(self.threadelements)):
-            self.threads.append(thread(t,self))
+            self.threads.append(thread(index=t,parent=self))
 
 
         return self.threads
-            
-    def parsethread(self,thread):
-        pass
-    
-    def parsepost(self,post):
-        pass
     
 class thread():
 
-    def __init__(self,index=None,parent=None,url=None):
+    def __init__(self,url=None,index=None,parent=None):
         import requests
         from lxml import html
         self.roothtml = '//tr[@class="forum-post"]/'
