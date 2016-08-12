@@ -5,7 +5,7 @@ setup(name='foruming',
       description='A module for roblox foruming',
       url='https://github.com/HealthyChoice/foruming',
       author='HealthyChoices',
-      packages=['foruming']
+      packages=['foruming','foruming/exmaples'],
       install_requires=['requests'],
       zip_safe=False)
 
