@@ -16,5 +16,5 @@ while True:
         posts = thread.getposts()
         for post in posts:
             if keyword in post.gettext():
-                reply(response,thread.geturl())
+                acc.reply(response,thread.geturl())
                 time.sleep(30)
