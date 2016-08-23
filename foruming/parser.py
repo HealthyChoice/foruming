@@ -3,9 +3,7 @@ class parser():
     def __init__(self):
         import requests
         self.roothtml = '//*[@class="forum-table-row"]/'
-        self.titles = None
-        self.authors = None
-        self.urls = None
+
 
     def getelement(self,xpath,omitroot=False,strip=False):
         if not omitroot:
@@ -26,6 +24,10 @@ class parser():
     def parse(self,forum):
         import requests
         from lxml import html
+        
+        self.titles = None
+        self.authors = None
+        self.urls = None
 
         self.__forum = forum
         from lxml import html
