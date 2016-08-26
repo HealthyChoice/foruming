@@ -40,6 +40,7 @@ There. that's literally it. If you cannot follow these simple steps you are very
 
 Troubleshooting:
 if python3 setup.py install doesnt work, you can try 'pip3 install .' instead
+If that still doesn't work, simply save any programs you write that use the module in the same folder with the module scripts, although if you do this you are most certainly a script kiddie.
 
 To ensure that you haven't fucked up, open a python shell and type 'import foruming'. If the shell doesnt yell at you, you've done everything right. Congradulations on your demonstration of basic cognitive function.
 
