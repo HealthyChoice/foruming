@@ -21,7 +21,7 @@ im on vacation now, ill probably add the docs and work out the kinks when i get 
 
 # HOW TO INSTALL
 
-Judging by the target userbase for this package, you are probably too dumb or techincally illiterate to know how to properly install python packages, so will do this just like we do in 'special school*
+Judging by the target userbase for this package, you are probably too dumb or technically illiterate to know how to properly install python packages, so will do this just like we do in 'special school*
 
 before you install you will need the following:
 
